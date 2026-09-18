@@ -1,5 +1,8 @@
-# BedrockData
-Blobs of data generated from Minecraft: Bedrock Edition used by PocketMine-MP
+# EraseMC BedrockData
+
+Blobs of data generated from Minecraft: Bedrock Edition and maintained by the EraseMC organization.
+
+This repository is part of the EraseMC Core stack and is published as `erasemc/bedrock-data`. The data is consumed by the EraseMC BedrockProtocol and Core repositories.
 
 <table>
  <thead>
