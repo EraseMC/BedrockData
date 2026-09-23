@@ -169,3 +169,7 @@ The 27 versioned files ending in `-1.19.*` were restored on the `feature/legacy-
 The set comprises six `canonical_block_states` NBT files, six `block_state_meta_map` JSON files, six `block_id_to_item_id_map` JSON files, six `required_item_list` JSON files, and three `r12_to_current_block_map` binary files.
 
 To verify any restored file, compare `git rev-parse '285cdbb07a8fb188972e9564bf2b9ece11670452^:<filename>'` with `git hash-object -- <filename>`. All 27 object IDs matched at restoration time. Keep future edits separate from these source captures and record the source of any additional 1.19 asset.
+
+## Bedrock 1.17 historical assets
+
+The versioned 1.17 block palettes and item lists were restored byte-for-byte from the parent tree of `657395e` in this repository. The 1.17.40 block palette was the unversioned `canonical_block_states.nbt` at `f29b7be`; its Git blob is `f971910ed0ba6cd7afdb99f8c8a190693b954677`. Verify restored files with `git hash-object` against these source trees. The captured 1.17 data does not include a versioned block-to-item map or block-state meta map; consumers must treat any fallback as provisional until independently verified.
