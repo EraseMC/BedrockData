@@ -173,3 +173,19 @@ To verify any restored file, compare `git rev-parse '285cdbb07a8fb188972e9564bf2
 ## Bedrock 1.17 historical assets
 
 The versioned 1.17 block palettes and item lists were restored byte-for-byte from the parent tree of `657395e` in this repository. The 1.17.40 block palette was the unversioned `canonical_block_states.nbt` at `f29b7be`; its Git blob is `f971910ed0ba6cd7afdb99f8c8a190693b954677`. Verify restored files with `git hash-object` against these source trees. The captured 1.17 data does not include a versioned block-to-item map or block-state meta map; consumers must treat any fallback as provisional until independently verified.
+
+## Bedrock 1.16 historical assets
+
+The 1.16 files were restored byte-for-byte from PMMP data commits in this repository's history:
+
+| File | Source tree |
+| --- | --- |
+| `required_block_states-1.16.0.nbt`, `entity_identifiers-1.16.0.nbt`, `biome_definitions-1.16.0.nbt` | `43edcfd` (1.16.0) |
+| `required_block_states-1.16.20.nbt`, `entity_identifiers-1.16.20.nbt` | `afc885c` (1.16.20) |
+| `canonical_block_states-1.16.100.nbt`, `required_item_list-1.16.100.json`, `entity_identifiers-1.16.100.nbt` | `14f4a76` (1.16.100) |
+| `canonical_block_states-1.16.210.nbt`, `biome_definitions-1.16.210.nbt` | `989e02a` (1.16.210) |
+| `required_item_list-1.16.0.json` | `7f4684b` (conversion of `item_id_map.json` at `43edcfd`; every ID matches) |
+
+The unversioned source file names are `required_block_states.nbt`, `canonical_block_states.nbt`, `required_item_list.json`, `entity_identifiers.nbt` and `biome_definitions.nbt`. Verify each with `git hash-object` against `git rev-parse <tree>:<source name>`.
+
+Before 1.16.100 the server sends the block palette in `StartGamePacket`; `required_block_states-*.nbt` is that list (`{block: {name, states, version}, id}`) and defines the runtime IDs by its order. The 1.16.100 palette is identical at `4e58a3c` (1.16.200), and the 1.16.210 palette is identical to the 1.16.220 capture in `f31a33c^`. The 1.16.100 item list is identical at `4e58a3c` and `989e02a`, and has the same entries as the 1.16.220 capture. The 1.16.0 item list also serves 1.16.20 (`item_id_map.json` is unchanged at `afc885c`).
