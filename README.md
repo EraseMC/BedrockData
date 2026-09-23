@@ -189,3 +189,13 @@ The 1.16 files were restored byte-for-byte from PMMP data commits in this reposi
 The unversioned source file names are `required_block_states.nbt`, `canonical_block_states.nbt`, `required_item_list.json`, `entity_identifiers.nbt` and `biome_definitions.nbt`. Verify each with `git hash-object` against `git rev-parse <tree>:<source name>`.
 
 Before 1.16.100 the server sends the block palette in `StartGamePacket`; `required_block_states-*.nbt` is that list (`{block: {name, states, version}, id}`) and defines the runtime IDs by its order. The 1.16.100 palette is identical at `4e58a3c` (1.16.200), and the 1.16.210 palette is identical to the 1.16.220 capture in `f31a33c^`. The 1.16.100 item list is identical at `4e58a3c` and `989e02a`, and has the same entries as the 1.16.220 capture. The 1.16.0 item list also serves 1.16.20 (`item_id_map.json` is unchanged at `afc885c`).
+
+### Generated block-state meta maps (1.16, 1.17, 1.18)
+
+The captured 1.16, 1.17 and 1.18 palettes have no BDS meta map. `block_state_meta_map-<version>.json` for 1.16.0, 1.16.20, 1.16.100, 1.16.210, 1.17.0, 1.17.10, 1.17.30, 1.17.40, 1.18.0, 1.18.10 and 1.18.30 were generated with EraseMC Core's `tools/generate-block-state-meta-map.php`, using the BDS-generated 1.19.10 and 1.19.40 palette/meta-map pairs in this repository as sources. States are matched exactly first, then after upgrading both sides to the current state format. Every state was found in the sources except one 1.16.20 state, which defaults to 0. Predicting the 1.19.40 map from the 1.19.10 source with the same tool reproduces all but 2 of 8291 entries (a block added in 1.19.40).
+
+Regenerate with, for example:
+
+```
+php tools/generate-block-state-meta-map.php required_block_states-1.16.0.nbt required block_state_meta_map-1.16.0.json canonical_block_states-1.19.10.nbt block_state_meta_map-1.19.10.json canonical_block_states-1.19.40.nbt block_state_meta_map-1.19.40.json
+```
