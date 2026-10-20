@@ -58,16 +58,15 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
-                "count": 4,
-                "name": "minecraft:quartz_stairs"
+                "block_states": "CgAACAsAcGlsbGFyX2F4aXMBAHkA",
+                "count": 2,
+                "name": "minecraft:quartz_pillar"
             }
         ],
         "priority": 0,
         "shape": [
-            "A  ",
-            "AA ",
-            "AAA"
+            "A",
+            "A"
         ],
         "unlockingIngredients": [
             {
@@ -86,15 +85,16 @@
         },
         "output": [
             {
-                "block_states": "CgAACAsAcGlsbGFyX2F4aXMBAHkA",
-                "count": 2,
-                "name": "minecraft:quartz_pillar"
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:quartz_stairs"
             }
         ],
         "priority": 0,
         "shape": [
-            "A",
-            "A"
+            "A  ",
+            "AA ",
+            "AAA"
         ],
         "unlockingIngredients": [
             {
@@ -368,6 +368,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 3,
                 "name": "minecraft:acacia_fence"
             }
@@ -442,7 +443,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:acacia_stairs"
             }
@@ -660,7 +661,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:andesite_stairs"
             }
@@ -849,7 +850,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:bamboo_mosaic_stairs"
             }
@@ -907,6 +908,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 3,
                 "name": "minecraft:bamboo_fence"
             }
@@ -946,34 +948,6 @@
             "AAA",
             "AAA",
             " B "
-        ],
-        "unlockingIngredients": [
-            {
-                "meta": 32767,
-                "name": "minecraft:bamboo_planks"
-            }
-        ]
-    },
-    {
-        "block": "crafting_table",
-        "input": {
-            "A": {
-                "meta": 32767,
-                "name": "minecraft:bamboo_planks"
-            }
-        },
-        "output": [
-            {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
-                "count": 4,
-                "name": "minecraft:bamboo_stairs"
-            }
-        ],
-        "priority": 0,
-        "shape": [
-            "A  ",
-            "AA ",
-            "AAA"
         ],
         "unlockingIngredients": [
             {
@@ -1050,6 +1024,34 @@
         "priority": 0,
         "shape": [
             "AAA",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:bamboo_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:bamboo_planks"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:bamboo_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
             "AAA"
         ],
         "unlockingIngredients": [
@@ -1228,6 +1230,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 3,
                 "name": "minecraft:birch_fence"
             }
@@ -1302,7 +1305,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:birch_stairs"
             }
@@ -1403,11 +1406,66 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:black_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:black_concrete_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:black_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:black_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:black_concrete_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:black_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:black_stained_glass"
             }
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 16,
                 "name": "minecraft:black_stained_glass_pane"
             }
@@ -1465,6 +1523,60 @@
         },
         "output": [
             {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:black_wool_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:black_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:black_wool"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:black_wool_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:black_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:black_wool"
+            }
+        },
+        "output": [
+            {
                 "count": 3,
                 "name": "minecraft:black_carpet"
             }
@@ -1477,6 +1589,28 @@
             {
                 "meta": 32767,
                 "name": "minecraft:black_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:black_wool_slab"
+            }
+        },
+        "output": [
+            "minecraft:black_cushion"
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:black_wool_slab"
             }
         ]
     },
@@ -1600,7 +1734,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:blackstone_stairs"
             }
@@ -1828,11 +1962,66 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:blue_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:blue_concrete_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:blue_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:blue_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:blue_concrete_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:blue_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:blue_stained_glass"
             }
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 16,
                 "name": "minecraft:blue_stained_glass_pane"
             }
@@ -1891,6 +2080,60 @@
         },
         "output": [
             {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:blue_wool_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:blue_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:blue_wool"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:blue_wool_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:blue_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:blue_wool"
+            }
+        },
+        "output": [
+            {
                 "count": 3,
                 "name": "minecraft:blue_carpet"
             }
@@ -1903,6 +2146,28 @@
             {
                 "meta": 32767,
                 "name": "minecraft:blue_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:blue_wool_slab"
+            }
+        },
+        "output": [
+            "minecraft:blue_cushion"
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:blue_wool_slab"
             }
         ]
     },
@@ -2024,7 +2289,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:brick_stairs"
             }
@@ -2074,11 +2339,66 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:brown_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:brown_concrete_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:brown_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:brown_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:brown_concrete_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:brown_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:brown_stained_glass"
             }
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 16,
                 "name": "minecraft:brown_stained_glass_pane"
             }
@@ -2137,6 +2457,60 @@
         },
         "output": [
             {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:brown_wool_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:brown_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:brown_wool"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:brown_wool_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:brown_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:brown_wool"
+            }
+        },
+        "output": [
+            {
                 "count": 3,
                 "name": "minecraft:brown_carpet"
             }
@@ -2149,6 +2523,28 @@
             {
                 "meta": 32767,
                 "name": "minecraft:brown_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:brown_wool_slab"
+            }
+        },
+        "output": [
+            "minecraft:brown_cushion"
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:brown_wool_slab"
             }
         ]
     },
@@ -2273,6 +2669,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 3,
                 "name": "minecraft:cherry_fence"
             }
@@ -2347,34 +2744,6 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
-                "count": 4,
-                "name": "minecraft:cherry_stairs"
-            }
-        ],
-        "priority": 0,
-        "shape": [
-            "A  ",
-            "AA ",
-            "AAA"
-        ],
-        "unlockingIngredients": [
-            {
-                "meta": 32767,
-                "name": "minecraft:cherry_planks"
-            }
-        ]
-    },
-    {
-        "block": "crafting_table",
-        "input": {
-            "A": {
-                "meta": 32767,
-                "name": "minecraft:cherry_planks"
-            }
-        },
-        "output": [
-            {
                 "block_states": "CgAAARIAYnV0dG9uX3ByZXNzZWRfYml0AAMQAGZhY2luZ19kaXJlY3Rpb24AAAAAAA==",
                 "name": "minecraft:cherry_button"
             }
@@ -2433,6 +2802,34 @@
         "priority": 0,
         "shape": [
             "AAA",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:cherry_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:cherry_planks"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:cherry_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
             "AAA"
         ],
         "unlockingIngredients": [
@@ -2530,7 +2927,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:red_sandstone_stairs"
             }
@@ -2558,7 +2955,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:sandstone_stairs"
             }
@@ -2614,7 +3011,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:cinnabar_stairs"
             }
@@ -2721,7 +3118,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:cinnabar_brick_stairs"
             }
@@ -3068,7 +3465,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:cobbled_deepslate_stairs"
             }
@@ -3356,7 +3753,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:stone_stairs"
             }
@@ -3870,6 +4267,33 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
+                "count": 16,
+                "name": "minecraft:copper_bars"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:copper_ingot"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:copper_ingot"
+            }
+        },
+        "output": [
+            {
                 "block_states": "CgAAAwkAZGlyZWN0aW9uAAAAAAEIAG9wZW5fYml0AAEPAHVwc2lkZV9kb3duX2JpdAAA",
                 "name": "minecraft:copper_trapdoor"
             }
@@ -3905,32 +4329,6 @@
             "A",
             "A",
             "A"
-        ],
-        "unlockingIngredients": [
-            {
-                "meta": 32767,
-                "name": "minecraft:copper_ingot"
-            }
-        ]
-    },
-    {
-        "block": "crafting_table",
-        "input": {
-            "A": {
-                "meta": 32767,
-                "name": "minecraft:copper_ingot"
-            }
-        },
-        "output": [
-            {
-                "count": 16,
-                "name": "minecraft:copper_bars"
-            }
-        ],
-        "priority": 0,
-        "shape": [
-            "AAA",
-            "AAA"
         ],
         "unlockingIngredients": [
             {
@@ -4415,6 +4813,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 3,
                 "name": "minecraft:crimson_fence"
             }
@@ -4489,34 +4888,6 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
-                "count": 4,
-                "name": "minecraft:crimson_stairs"
-            }
-        ],
-        "priority": 0,
-        "shape": [
-            "A  ",
-            "AA ",
-            "AAA"
-        ],
-        "unlockingIngredients": [
-            {
-                "meta": 32767,
-                "name": "minecraft:crimson_planks"
-            }
-        ]
-    },
-    {
-        "block": "crafting_table",
-        "input": {
-            "A": {
-                "meta": 32767,
-                "name": "minecraft:crimson_planks"
-            }
-        },
-        "output": [
-            {
                 "block_states": "CgAAARIAYnV0dG9uX3ByZXNzZWRfYml0AAMQAGZhY2luZ19kaXJlY3Rpb24AAAAAAA==",
                 "name": "minecraft:crimson_button"
             }
@@ -4575,6 +4946,34 @@
         "priority": 0,
         "shape": [
             "AAA",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:crimson_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:crimson_planks"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:crimson_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
             "AAA"
         ],
         "unlockingIngredients": [
@@ -4862,7 +5261,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:cut_copper_stairs"
             }
@@ -4939,7 +5338,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:red_sandstone_stairs"
             }
@@ -4967,7 +5366,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:sandstone_stairs"
             }
@@ -4990,11 +5389,66 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:cyan_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:cyan_concrete_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:cyan_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:cyan_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:cyan_concrete_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:cyan_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:cyan_stained_glass"
             }
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 16,
                 "name": "minecraft:cyan_stained_glass_pane"
             }
@@ -5053,6 +5507,60 @@
         },
         "output": [
             {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:cyan_wool_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:cyan_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:cyan_wool"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:cyan_wool_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:cyan_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:cyan_wool"
+            }
+        },
+        "output": [
+            {
                 "count": 3,
                 "name": "minecraft:cyan_carpet"
             }
@@ -5065,6 +5573,28 @@
             {
                 "meta": 32767,
                 "name": "minecraft:cyan_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:cyan_wool_slab"
+            }
+        },
+        "output": [
+            "minecraft:cyan_cushion"
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:cyan_wool_slab"
             }
         ]
     },
@@ -5134,6 +5664,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 3,
                 "name": "minecraft:dark_oak_fence"
             }
@@ -5208,7 +5739,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:dark_oak_stairs"
             }
@@ -5314,7 +5845,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:dark_prismarine_stairs"
             }
@@ -5342,7 +5873,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:deepslate_brick_stairs"
             }
@@ -5449,7 +5980,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:deepslate_tile_stairs"
             }
@@ -6541,7 +7072,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:diorite_stairs"
             }
@@ -6800,7 +7331,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:end_brick_stairs"
             }
@@ -6970,7 +7501,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:exposed_cut_copper_stairs"
             }
@@ -8101,6 +8632,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 16,
                 "name": "minecraft:glass_pane"
             }
@@ -8157,6 +8689,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 8,
                 "name": "minecraft:black_stained_glass_pane"
             }
@@ -8192,6 +8725,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 8,
                 "name": "minecraft:blue_stained_glass_pane"
             }
@@ -8227,6 +8761,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 8,
                 "name": "minecraft:brown_stained_glass_pane"
             }
@@ -8262,6 +8797,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 8,
                 "name": "minecraft:cyan_stained_glass_pane"
             }
@@ -8297,6 +8833,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 8,
                 "name": "minecraft:gray_stained_glass_pane"
             }
@@ -8332,6 +8869,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 8,
                 "name": "minecraft:green_stained_glass_pane"
             }
@@ -8367,6 +8905,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 8,
                 "name": "minecraft:light_blue_stained_glass_pane"
             }
@@ -8402,6 +8941,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 8,
                 "name": "minecraft:light_gray_stained_glass_pane"
             }
@@ -8437,6 +8977,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 8,
                 "name": "minecraft:lime_stained_glass_pane"
             }
@@ -8472,6 +9013,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 8,
                 "name": "minecraft:magenta_stained_glass_pane"
             }
@@ -8507,6 +9049,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 8,
                 "name": "minecraft:orange_stained_glass_pane"
             }
@@ -8542,6 +9085,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 8,
                 "name": "minecraft:pink_stained_glass_pane"
             }
@@ -8577,6 +9121,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 8,
                 "name": "minecraft:purple_stained_glass_pane"
             }
@@ -8612,6 +9157,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 8,
                 "name": "minecraft:red_stained_glass_pane"
             }
@@ -8647,6 +9193,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 8,
                 "name": "minecraft:white_stained_glass_pane"
             }
@@ -8682,6 +9229,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 8,
                 "name": "minecraft:yellow_stained_glass_pane"
             }
@@ -9301,7 +9849,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:granite_stairs"
             }
@@ -9377,11 +9925,66 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:gray_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:gray_concrete_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:gray_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:gray_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:gray_concrete_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:gray_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:gray_stained_glass"
             }
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 16,
                 "name": "minecraft:gray_stained_glass_pane"
             }
@@ -9440,6 +10043,60 @@
         },
         "output": [
             {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:gray_wool_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:gray_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:gray_wool"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:gray_wool_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:gray_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:gray_wool"
+            }
+        },
+        "output": [
+            {
                 "count": 3,
                 "name": "minecraft:gray_carpet"
             }
@@ -9460,11 +10117,88 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:gray_wool_slab"
+            }
+        },
+        "output": [
+            "minecraft:gray_cushion"
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:gray_wool_slab"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:green_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:green_concrete_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:green_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:green_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:green_concrete_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:green_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:green_stained_glass"
             }
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 16,
                 "name": "minecraft:green_stained_glass_pane"
             }
@@ -9523,6 +10257,60 @@
         },
         "output": [
             {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:green_wool_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:green_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:green_wool"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:green_wool_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:green_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:green_wool"
+            }
+        },
+        "output": [
+            {
                 "count": 3,
                 "name": "minecraft:green_carpet"
             }
@@ -9535,6 +10323,28 @@
             {
                 "meta": 32767,
                 "name": "minecraft:green_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:green_wool_slab"
+            }
+        },
+        "output": [
+            "minecraft:green_cushion"
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:green_wool_slab"
             }
         ]
     },
@@ -10199,6 +11009,35 @@
         },
         "output": [
             {
+                "count": 4,
+                "name": "minecraft:straw_bed"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:hay_block"
+            },
+            {
+                "meta": 32767,
+                "name": "minecraft:straw_bed"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:hay_block"
+            }
+        },
+        "output": [
+            {
                 "count": 9,
                 "name": "minecraft:wheat"
             }
@@ -10708,6 +11547,37 @@
             {
                 "meta": 32767,
                 "name": "minecraft:stripped_pale_oak_log"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:iron_chain"
+            },
+            "B": {
+                "meta": 32767,
+                "name": "minecraft:stripped_poplar_log"
+            }
+        },
+        "output": [
+            {
+                "count": 6,
+                "name": "minecraft:poplar_hanging_sign"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A A",
+            "BBB",
+            "BBB"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:stripped_poplar_log"
             }
         ]
     },
@@ -11641,6 +12511,33 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
+                "count": 16,
+                "name": "minecraft:iron_bars"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:iron_ingot"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:iron_ingot"
+            }
+        },
+        "output": [
+            {
                 "block_states": "CgAAAw8AcmVkc3RvbmVfc2lnbmFsAAAAAAA=",
                 "name": "minecraft:heavy_weighted_pressure_plate"
             }
@@ -11674,32 +12571,6 @@
         "shape": [
             "AA",
             "AA"
-        ],
-        "unlockingIngredients": [
-            {
-                "meta": 32767,
-                "name": "minecraft:iron_ingot"
-            }
-        ]
-    },
-    {
-        "block": "crafting_table",
-        "input": {
-            "A": {
-                "meta": 32767,
-                "name": "minecraft:iron_ingot"
-            }
-        },
-        "output": [
-            {
-                "count": 16,
-                "name": "minecraft:iron_bars"
-            }
-        ],
-        "priority": 0,
-        "shape": [
-            "AAA",
-            "AAA"
         ],
         "unlockingIngredients": [
             {
@@ -11947,6 +12818,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 3,
                 "name": "minecraft:jungle_fence"
             }
@@ -12021,7 +12893,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:jungle_stairs"
             }
@@ -12872,11 +13744,66 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:light_blue_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:light_blue_concrete_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:light_blue_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:light_blue_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:light_blue_concrete_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:light_blue_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:light_blue_stained_glass"
             }
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 16,
                 "name": "minecraft:light_blue_stained_glass_pane"
             }
@@ -12935,6 +13862,60 @@
         },
         "output": [
             {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:light_blue_wool_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:light_blue_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:light_blue_wool"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:light_blue_wool_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:light_blue_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:light_blue_wool"
+            }
+        },
+        "output": [
+            {
                 "count": 3,
                 "name": "minecraft:light_blue_carpet"
             }
@@ -12955,11 +13936,88 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:light_blue_wool_slab"
+            }
+        },
+        "output": [
+            "minecraft:light_blue_cushion"
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:light_blue_wool_slab"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:light_gray_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:light_gray_concrete_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:light_gray_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:light_gray_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:light_gray_concrete_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:light_gray_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:light_gray_stained_glass"
             }
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 16,
                 "name": "minecraft:light_gray_stained_glass_pane"
             }
@@ -13018,6 +14076,60 @@
         },
         "output": [
             {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:light_gray_wool_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:light_gray_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:light_gray_wool"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:light_gray_wool_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:light_gray_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:light_gray_wool"
+            }
+        },
+        "output": [
+            {
                 "count": 3,
                 "name": "minecraft:light_gray_carpet"
             }
@@ -13038,11 +14150,88 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:light_gray_wool_slab"
+            }
+        },
+        "output": [
+            "minecraft:light_gray_cushion"
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:light_gray_wool_slab"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:lime_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:lime_concrete_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:lime_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:lime_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:lime_concrete_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:lime_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:lime_stained_glass"
             }
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 16,
                 "name": "minecraft:lime_stained_glass_pane"
             }
@@ -13101,6 +14290,60 @@
         },
         "output": [
             {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:lime_wool_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:lime_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:lime_wool"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:lime_wool_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:lime_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:lime_wool"
+            }
+        },
+        "output": [
+            {
                 "count": 3,
                 "name": "minecraft:lime_carpet"
             }
@@ -13113,6 +14356,28 @@
             {
                 "meta": 32767,
                 "name": "minecraft:lime_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:lime_wool_slab"
+            }
+        },
+        "output": [
+            "minecraft:lime_cushion"
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:lime_wool_slab"
             }
         ]
     },
@@ -13146,11 +14411,66 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:magenta_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:magenta_concrete_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:magenta_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:magenta_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:magenta_concrete_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:magenta_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:magenta_stained_glass"
             }
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 16,
                 "name": "minecraft:magenta_stained_glass_pane"
             }
@@ -13209,6 +14529,60 @@
         },
         "output": [
             {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:magenta_wool_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:magenta_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:magenta_wool"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:magenta_wool_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:magenta_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:magenta_wool"
+            }
+        },
+        "output": [
+            {
                 "count": 3,
                 "name": "minecraft:magenta_carpet"
             }
@@ -13221,6 +14595,28 @@
             {
                 "meta": 32767,
                 "name": "minecraft:magenta_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:magenta_wool_slab"
+            }
+        },
+        "output": [
+            "minecraft:magenta_cushion"
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:magenta_wool_slab"
             }
         ]
     },
@@ -13594,6 +14990,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 3,
                 "name": "minecraft:mangrove_fence"
             }
@@ -13668,34 +15065,6 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
-                "count": 4,
-                "name": "minecraft:mangrove_stairs"
-            }
-        ],
-        "priority": 0,
-        "shape": [
-            "A  ",
-            "AA ",
-            "AAA"
-        ],
-        "unlockingIngredients": [
-            {
-                "meta": 32767,
-                "name": "minecraft:mangrove_planks"
-            }
-        ]
-    },
-    {
-        "block": "crafting_table",
-        "input": {
-            "A": {
-                "meta": 32767,
-                "name": "minecraft:mangrove_planks"
-            }
-        },
-        "output": [
-            {
                 "block_states": "CgAAARIAYnV0dG9uX3ByZXNzZWRfYml0AAMQAGZhY2luZ19kaXJlY3Rpb24AAAAAAA==",
                 "name": "minecraft:mangrove_button"
             }
@@ -13754,6 +15123,34 @@
         "priority": 0,
         "shape": [
             "AAA",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:mangrove_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:mangrove_planks"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:mangrove_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
             "AAA"
         ],
         "unlockingIngredients": [
@@ -14054,7 +15451,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:mossy_cobblestone_stairs"
             }
@@ -14109,7 +15506,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:mossy_stone_brick_stairs"
             }
@@ -14164,7 +15561,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:mud_brick_stairs"
             }
@@ -14281,6 +15678,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 6,
                 "name": "minecraft:nether_brick_fence"
             }
@@ -14307,7 +15705,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:nether_brick_stairs"
             }
@@ -14564,6 +15962,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 3,
                 "name": "minecraft:oak_fence"
             }
@@ -14594,6 +15993,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 3,
                 "name": "minecraft:oak_fence"
             }
@@ -14685,7 +16085,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:oak_stairs"
             }
@@ -14817,11 +16217,66 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:orange_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:orange_concrete_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:orange_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:orange_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:orange_concrete_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:orange_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:orange_stained_glass"
             }
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 16,
                 "name": "minecraft:orange_stained_glass_pane"
             }
@@ -14880,6 +16335,60 @@
         },
         "output": [
             {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:orange_wool_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:orange_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:orange_wool"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:orange_wool_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:orange_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:orange_wool"
+            }
+        },
+        "output": [
+            {
                 "count": 3,
                 "name": "minecraft:orange_carpet"
             }
@@ -14892,6 +16401,28 @@
             {
                 "meta": 32767,
                 "name": "minecraft:orange_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:orange_wool_slab"
+            }
+        },
+        "output": [
+            "minecraft:orange_cushion"
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:orange_wool_slab"
             }
         ]
     },
@@ -14994,7 +16525,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:oxidized_cut_copper_stairs"
             }
@@ -15238,6 +16769,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 3,
                 "name": "minecraft:pale_oak_fence"
             }
@@ -15312,34 +16844,6 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
-                "count": 4,
-                "name": "minecraft:pale_oak_stairs"
-            }
-        ],
-        "priority": 0,
-        "shape": [
-            "A  ",
-            "AA ",
-            "AAA"
-        ],
-        "unlockingIngredients": [
-            {
-                "meta": 32767,
-                "name": "minecraft:pale_oak_planks"
-            }
-        ]
-    },
-    {
-        "block": "crafting_table",
-        "input": {
-            "A": {
-                "meta": 32767,
-                "name": "minecraft:pale_oak_planks"
-            }
-        },
-        "output": [
-            {
                 "block_states": "CgAAARIAYnV0dG9uX3ByZXNzZWRfYml0AAMQAGZhY2luZ19kaXJlY3Rpb24AAAAAAA==",
                 "name": "minecraft:pale_oak_button"
             }
@@ -15398,6 +16902,34 @@
         "priority": 0,
         "shape": [
             "AAA",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:pale_oak_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:pale_oak_planks"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:pale_oak_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
             "AAA"
         ],
         "unlockingIngredients": [
@@ -15638,11 +17170,66 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:pink_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:pink_concrete_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:pink_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:pink_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:pink_concrete_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:pink_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:pink_stained_glass"
             }
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 16,
                 "name": "minecraft:pink_stained_glass_pane"
             }
@@ -15701,6 +17288,60 @@
         },
         "output": [
             {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:pink_wool_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:pink_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:pink_wool"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:pink_wool_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:pink_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:pink_wool"
+            }
+        },
+        "output": [
+            {
                 "count": 3,
                 "name": "minecraft:pink_carpet"
             }
@@ -15721,6 +17362,28 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:pink_wool_slab"
+            }
+        },
+        "output": [
+            "minecraft:pink_cushion"
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:pink_wool_slab"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:pointed_dripstone"
             }
         },
@@ -15766,7 +17429,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:polished_andesite_stairs"
             }
@@ -15781,34 +17444,6 @@
             {
                 "meta": 32767,
                 "name": "minecraft:polished_andesite"
-            }
-        ]
-    },
-    {
-        "block": "crafting_table",
-        "input": {
-            "A": {
-                "meta": 32767,
-                "name": "minecraft:polished_blackstone"
-            }
-        },
-        "output": [
-            {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
-                "count": 4,
-                "name": "minecraft:polished_blackstone_stairs"
-            }
-        ],
-        "priority": 0,
-        "shape": [
-            "A  ",
-            "AA ",
-            "AAA"
-        ],
-        "unlockingIngredients": [
-            {
-                "meta": 32767,
-                "name": "minecraft:polished_blackstone"
             }
         ]
     },
@@ -15854,6 +17489,34 @@
         "priority": 0,
         "shape": [
             "AA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:polished_blackstone"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:polished_blackstone"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:polished_blackstone_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
         ],
         "unlockingIngredients": [
             {
@@ -15951,7 +17614,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:polished_blackstone_brick_stairs"
             }
@@ -16055,7 +17718,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:polished_cinnabar_stairs"
             }
@@ -16162,7 +17825,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:polished_deepslate_stairs"
             }
@@ -16269,7 +17932,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:polished_diorite_stairs"
             }
@@ -16297,7 +17960,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:polished_granite_stairs"
             }
@@ -16325,7 +17988,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:polished_sulfur_stairs"
             }
@@ -16432,7 +18095,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:polished_tuff_stairs"
             }
@@ -16534,6 +18197,320 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:poplar_log"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACAsAcGlsbGFyX2F4aXMBAHkA",
+                "count": 3,
+                "name": "minecraft:poplar_wood"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AA",
+            "AA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:poplar_log"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:poplar_log"
+            }
+        },
+        "output": [
+            {
+                "count": 4,
+                "name": "minecraft:poplar_planks"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:poplar_log"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            },
+            "B": {
+                "meta": 32767,
+                "name": "minecraft:stick"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
+                "count": 3,
+                "name": "minecraft:poplar_fence"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "ABA",
+            "ABA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            },
+            "B": {
+                "meta": 32767,
+                "name": "minecraft:stick"
+            }
+        },
+        "output": [
+            {
+                "count": 3,
+                "name": "minecraft:poplar_sign"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA",
+            "AAA",
+            " B "
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            }
+        },
+        "output": [
+            "minecraft:poplar_boat"
+        ],
+        "priority": 0,
+        "shape": [
+            "A A",
+            "AAA"
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAAARIAYnV0dG9uX3ByZXNzZWRfYml0AAMQAGZhY2luZ19kaXJlY3Rpb24AAAAAAA==",
+                "name": "minecraft:poplar_button"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAAAw8AcmVkc3RvbmVfc2lnbmFsAAAAAAA=",
+                "name": "minecraft:poplar_pressure_plate"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAAAwkAZGlyZWN0aW9uAAAAAAEIAG9wZW5fYml0AAEPAHVwc2lkZV9kb3duX2JpdAAA",
+                "count": 2,
+                "name": "minecraft:poplar_trapdoor"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:poplar_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:poplar_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            }
+        },
+        "output": [
+            {
+                "count": 3,
+                "name": "minecraft:poplar_door"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AA",
+            "AA",
+            "AA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:poplar_wood"
+            }
+        },
+        "output": [
+            {
+                "count": 4,
+                "name": "minecraft:poplar_planks"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:poplar_wood"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:popped_chorus_fruit"
             }
         },
@@ -16566,7 +18543,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:prismarine_bricks_stairs"
             }
@@ -16745,11 +18722,66 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:purple_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:purple_concrete_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:purple_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:purple_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:purple_concrete_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:purple_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:purple_stained_glass"
             }
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 16,
                 "name": "minecraft:purple_stained_glass_pane"
             }
@@ -16808,6 +18840,60 @@
         },
         "output": [
             {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:purple_wool_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:purple_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:purple_wool"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:purple_wool_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:purple_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:purple_wool"
+            }
+        },
+        "output": [
+            {
                 "count": 3,
                 "name": "minecraft:purple_carpet"
             }
@@ -16828,12 +18914,34 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:purple_wool_slab"
+            }
+        },
+        "output": [
+            "minecraft:purple_cushion"
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:purple_wool_slab"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:purpur_block"
             }
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:purpur_stairs"
             }
@@ -17078,12 +19186,66 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:red_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:red_concrete_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:red_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:red_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:red_concrete_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:red_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:red_nether_brick"
             }
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:red_nether_brick_stairs"
             }
@@ -17161,6 +19323,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 16,
                 "name": "minecraft:red_stained_glass_pane"
             }
@@ -17219,6 +19382,60 @@
         },
         "output": [
             {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:red_wool_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:red_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:red_wool"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:red_wool_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:red_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:red_wool"
+            }
+        },
+        "output": [
+            {
                 "count": 3,
                 "name": "minecraft:red_carpet"
             }
@@ -17231,6 +19448,28 @@
             {
                 "meta": 32767,
                 "name": "minecraft:red_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:red_wool_slab"
+            }
+        },
+        "output": [
+            "minecraft:red_cushion"
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:red_wool_slab"
             }
         ]
     },
@@ -17516,7 +19755,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:resin_brick_stairs"
             }
@@ -17728,7 +19967,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:smooth_quartz_stairs"
             }
@@ -17756,7 +19995,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:smooth_red_sandstone_stairs"
             }
@@ -17784,7 +20023,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:smooth_sandstone_stairs"
             }
@@ -17917,6 +20156,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 3,
                 "name": "minecraft:spruce_fence"
             }
@@ -17991,7 +20231,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:spruce_stairs"
             }
@@ -19369,6 +21609,36 @@
             },
             "B": {
                 "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAAAQsAaW5fd2FsbF9iaXQACBwAbWluZWNyYWZ0OmNhcmRpbmFsX2RpcmVjdGlvbgUAc291dGgBCABvcGVuX2JpdAAA",
+                "name": "minecraft:poplar_fence_gate"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "ABA",
+            "ABA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:poplar_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:stick"
+            },
+            "B": {
+                "meta": 32767,
                 "name": "minecraft:smooth_stone_slab"
             }
         },
@@ -20572,7 +22842,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:stone_brick_stairs"
             }
@@ -22036,6 +24306,111 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:stripped_poplar_log"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACAsAcGlsbGFyX2F4aXMBAHkA",
+                "count": 3,
+                "name": "minecraft:stripped_poplar_wood"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AA",
+            "AA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:stripped_poplar_log"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:stripped_poplar_log"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBwAbWluZWNyYWZ0OmNhcmRpbmFsX2RpcmVjdGlvbgUAc291dGgBCwBwb3dlcmVkX2JpdAADEgBwb3dlcmVkX3NoZWxmX3R5cGUAAAAAAA==",
+                "count": 6,
+                "name": "minecraft:poplar_shelf"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA",
+            "   ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:stripped_poplar_log"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:stripped_poplar_log"
+            }
+        },
+        "output": [
+            {
+                "count": 4,
+                "name": "minecraft:poplar_planks"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:stripped_poplar_log"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:stripped_poplar_wood"
+            }
+        },
+        "output": [
+            {
+                "count": 4,
+                "name": "minecraft:poplar_planks"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:stripped_poplar_wood"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:stripped_spruce_log"
             },
             "B": {
@@ -22348,7 +24723,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:sulfur_stairs"
             }
@@ -22482,7 +24857,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:sulfur_brick_stairs"
             }
@@ -22609,7 +24984,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:tuff_stairs"
             }
@@ -22739,7 +25114,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:tuff_brick_stairs"
             }
@@ -23151,6 +25526,7 @@
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 3,
                 "name": "minecraft:warped_fence"
             }
@@ -23225,34 +25601,6 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
-                "count": 4,
-                "name": "minecraft:warped_stairs"
-            }
-        ],
-        "priority": 0,
-        "shape": [
-            "A  ",
-            "AA ",
-            "AAA"
-        ],
-        "unlockingIngredients": [
-            {
-                "meta": 32767,
-                "name": "minecraft:warped_planks"
-            }
-        ]
-    },
-    {
-        "block": "crafting_table",
-        "input": {
-            "A": {
-                "meta": 32767,
-                "name": "minecraft:warped_planks"
-            }
-        },
-        "output": [
-            {
                 "block_states": "CgAAARIAYnV0dG9uX3ByZXNzZWRfYml0AAMQAGZhY2luZ19kaXJlY3Rpb24AAAAAAA==",
                 "name": "minecraft:warped_button"
             }
@@ -23311,6 +25659,34 @@
         "priority": 0,
         "shape": [
             "AAA",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:warped_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:warped_planks"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:warped_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
             "AAA"
         ],
         "unlockingIngredients": [
@@ -23708,7 +26084,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:waxed_cut_copper_stairs"
             }
@@ -23874,7 +26250,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:waxed_exposed_cut_copper_stairs"
             }
@@ -24040,7 +26416,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:waxed_oxidized_cut_copper_stairs"
             }
@@ -24206,7 +26582,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:waxed_weathered_cut_copper_stairs"
             }
@@ -24372,7 +26748,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:weathered_cut_copper_stairs"
             }
@@ -25045,11 +27421,66 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:white_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:white_concrete_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:white_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:white_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:white_concrete_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:white_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:white_stained_glass"
             }
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 16,
                 "name": "minecraft:white_stained_glass_pane"
             }
@@ -25108,6 +27539,60 @@
         },
         "output": [
             {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:white_wool_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:white_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:white_wool"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:white_wool_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:white_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:white_wool"
+            }
+        },
+        "output": [
+            {
                 "count": 3,
                 "name": "minecraft:white_carpet"
             }
@@ -25128,11 +27613,88 @@
         "input": {
             "A": {
                 "meta": 32767,
+                "name": "minecraft:white_wool_slab"
+            }
+        },
+        "output": [
+            "minecraft:white_cushion"
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:white_wool_slab"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:yellow_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:yellow_concrete_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:yellow_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:yellow_concrete"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:yellow_concrete_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:yellow_concrete"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
                 "name": "minecraft:yellow_stained_glass"
             }
         },
         "output": [
             {
+                "block_states": "CgAAARkAbWluZWNyYWZ0OmNvbm5lY3Rpb25fZWFzdAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9ub3J0aAABGgBtaW5lY3JhZnQ6Y29ubmVjdGlvbl9zb3V0aAABGQBtaW5lY3JhZnQ6Y29ubmVjdGlvbl93ZXN0AAA=",
                 "count": 16,
                 "name": "minecraft:yellow_stained_glass_pane"
             }
@@ -25191,6 +27753,60 @@
         },
         "output": [
             {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:yellow_wool_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:yellow_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:yellow_wool"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBcAbWluZWNyYWZ0OnZlcnRpY2FsX2hhbGYGAGJvdHRvbQA=",
+                "count": 6,
+                "name": "minecraft:yellow_wool_slab"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "meta": 32767,
+                "name": "minecraft:yellow_wool"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "meta": 32767,
+                "name": "minecraft:yellow_wool"
+            }
+        },
+        "output": [
+            {
                 "count": 3,
                 "name": "minecraft:yellow_carpet"
             }
@@ -25210,25 +27826,21 @@
         "block": "crafting_table",
         "input": {
             "A": {
-                "name": "minecraft:acacia_planks"
+                "meta": 32767,
+                "name": "minecraft:yellow_wool_slab"
             }
         },
         "output": [
-            {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
-                "count": 4,
-                "name": "minecraft:acacia_stairs"
-            }
+            "minecraft:yellow_cushion"
         ],
-        "priority": 50,
+        "priority": 0,
         "shape": [
-            "A  ",
-            "AA ",
             "AAA"
         ],
         "unlockingIngredients": [
             {
-                "name": "minecraft:acacia_planks"
+                "meta": 32767,
+                "name": "minecraft:yellow_wool_slab"
             }
         ]
     },
@@ -25295,6 +27907,32 @@
         "priority": 50,
         "shape": [
             "AAA",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "name": "minecraft:acacia_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "name": "minecraft:acacia_planks"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:acacia_stairs"
+            }
+        ],
+        "priority": 50,
+        "shape": [
+            "A  ",
+            "AA ",
             "AAA"
         ],
         "unlockingIngredients": [
@@ -33542,32 +36180,6 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
-                "count": 4,
-                "name": "minecraft:birch_stairs"
-            }
-        ],
-        "priority": 50,
-        "shape": [
-            "A  ",
-            "AA ",
-            "AAA"
-        ],
-        "unlockingIngredients": [
-            {
-                "name": "minecraft:birch_planks"
-            }
-        ]
-    },
-    {
-        "block": "crafting_table",
-        "input": {
-            "A": {
-                "name": "minecraft:birch_planks"
-            }
-        },
-        "output": [
-            {
                 "block_states": "CgAAARIAYnV0dG9uX3ByZXNzZWRfYml0AAMQAGZhY2luZ19kaXJlY3Rpb24AAAAAAA==",
                 "name": "minecraft:birch_button"
             }
@@ -33622,6 +36234,32 @@
         "priority": 50,
         "shape": [
             "AAA",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "name": "minecraft:birch_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "name": "minecraft:birch_planks"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:birch_stairs"
+            }
+        ],
+        "priority": 50,
+        "shape": [
+            "A  ",
+            "AA ",
             "AAA"
         ],
         "unlockingIngredients": [
@@ -34159,32 +36797,6 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
-                "count": 4,
-                "name": "minecraft:dark_oak_stairs"
-            }
-        ],
-        "priority": 50,
-        "shape": [
-            "A  ",
-            "AA ",
-            "AAA"
-        ],
-        "unlockingIngredients": [
-            {
-                "name": "minecraft:dark_oak_planks"
-            }
-        ]
-    },
-    {
-        "block": "crafting_table",
-        "input": {
-            "A": {
-                "name": "minecraft:dark_oak_planks"
-            }
-        },
-        "output": [
-            {
                 "block_states": "CgAAARIAYnV0dG9uX3ByZXNzZWRfYml0AAMQAGZhY2luZ19kaXJlY3Rpb24AAAAAAA==",
                 "name": "minecraft:dark_oak_button"
             }
@@ -34239,6 +36851,32 @@
         "priority": 50,
         "shape": [
             "AAA",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "name": "minecraft:dark_oak_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "name": "minecraft:dark_oak_planks"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:dark_oak_stairs"
+            }
+        ],
+        "priority": 50,
+        "shape": [
+            "A  ",
+            "AA ",
             "AAA"
         ],
         "unlockingIngredients": [
@@ -34499,32 +37137,6 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
-                "count": 4,
-                "name": "minecraft:jungle_stairs"
-            }
-        ],
-        "priority": 50,
-        "shape": [
-            "A  ",
-            "AA ",
-            "AAA"
-        ],
-        "unlockingIngredients": [
-            {
-                "name": "minecraft:jungle_planks"
-            }
-        ]
-    },
-    {
-        "block": "crafting_table",
-        "input": {
-            "A": {
-                "name": "minecraft:jungle_planks"
-            }
-        },
-        "output": [
-            {
                 "block_states": "CgAAARIAYnV0dG9uX3ByZXNzZWRfYml0AAMQAGZhY2luZ19kaXJlY3Rpb24AAAAAAA==",
                 "name": "minecraft:jungle_button"
             }
@@ -34579,6 +37191,32 @@
         "priority": 50,
         "shape": [
             "AAA",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "name": "minecraft:jungle_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "name": "minecraft:jungle_planks"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:jungle_stairs"
+            }
+        ],
+        "priority": 50,
+        "shape": [
+            "A  ",
+            "AA ",
             "AAA"
         ],
         "unlockingIngredients": [
@@ -34979,32 +37617,6 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
-                "count": 4,
-                "name": "minecraft:oak_stairs"
-            }
-        ],
-        "priority": 50,
-        "shape": [
-            "A  ",
-            "AA ",
-            "AAA"
-        ],
-        "unlockingIngredients": [
-            {
-                "name": "minecraft:oak_planks"
-            }
-        ]
-    },
-    {
-        "block": "crafting_table",
-        "input": {
-            "A": {
-                "name": "minecraft:oak_planks"
-            }
-        },
-        "output": [
-            {
                 "block_states": "CgAAARIAYnV0dG9uX3ByZXNzZWRfYml0AAMQAGZhY2luZ19kaXJlY3Rpb24AAAAAAA==",
                 "name": "minecraft:wooden_button"
             }
@@ -35059,6 +37671,32 @@
         "priority": 50,
         "shape": [
             "AAA",
+            "AAA"
+        ],
+        "unlockingIngredients": [
+            {
+                "name": "minecraft:oak_planks"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "name": "minecraft:oak_planks"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:oak_stairs"
+            }
+        ],
+        "priority": 50,
+        "shape": [
+            "A  ",
+            "AA ",
             "AAA"
         ],
         "unlockingIngredients": [
@@ -35266,7 +37904,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:prismarine_stairs"
             }
@@ -35448,7 +38086,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:red_sandstone_stairs"
             }
@@ -35627,7 +38265,7 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
                 "name": "minecraft:sandstone_stairs"
             }
@@ -35798,32 +38436,6 @@
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
-                "count": 4,
-                "name": "minecraft:spruce_stairs"
-            }
-        ],
-        "priority": 50,
-        "shape": [
-            "A  ",
-            "AA ",
-            "AAA"
-        ],
-        "unlockingIngredients": [
-            {
-                "name": "minecraft:spruce_planks"
-            }
-        ]
-    },
-    {
-        "block": "crafting_table",
-        "input": {
-            "A": {
-                "name": "minecraft:spruce_planks"
-            }
-        },
-        "output": [
-            {
                 "block_states": "CgAAARIAYnV0dG9uX3ByZXNzZWRfYml0AAMQAGZhY2luZ19kaXJlY3Rpb24AAAAAAA==",
                 "name": "minecraft:spruce_button"
             }
@@ -35890,17 +38502,17 @@
         "block": "crafting_table",
         "input": {
             "A": {
-                "name": "minecraft:stone"
+                "name": "minecraft:spruce_planks"
             }
         },
         "output": [
             {
-                "block_states": "CgAAAQ8AdXBzaWRlX2Rvd25fYml0AAMQAHdlaXJkb19kaXJlY3Rpb24AAAAAAA==",
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
                 "count": 4,
-                "name": "minecraft:normal_stone_stairs"
+                "name": "minecraft:spruce_stairs"
             }
         ],
-        "priority": 0,
+        "priority": 50,
         "shape": [
             "A  ",
             "AA ",
@@ -35908,7 +38520,7 @@
         ],
         "unlockingIngredients": [
             {
-                "name": "minecraft:stone"
+                "name": "minecraft:spruce_planks"
             }
         ]
     },
@@ -35951,6 +38563,32 @@
         "priority": 0,
         "shape": [
             "AA"
+        ],
+        "unlockingIngredients": [
+            {
+                "name": "minecraft:stone"
+            }
+        ]
+    },
+    {
+        "block": "crafting_table",
+        "input": {
+            "A": {
+                "name": "minecraft:stone"
+            }
+        },
+        "output": [
+            {
+                "block_states": "CgAACBAAbWluZWNyYWZ0OmNvcm5lcgQAbm9uZQEPAHVwc2lkZV9kb3duX2JpdAADEAB3ZWlyZG9fZGlyZWN0aW9uAAAAAAA=",
+                "count": 4,
+                "name": "minecraft:normal_stone_stairs"
+            }
+        ],
+        "priority": 0,
+        "shape": [
+            "A  ",
+            "AA ",
+            "AAA"
         ],
         "unlockingIngredients": [
             {
