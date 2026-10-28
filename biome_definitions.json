@@ -22,7 +22,8 @@
             "monster",
             "overworld",
             "spawns_jungle_mobs",
-            "spawns_warm_variant_farm_animals"
+            "spawns_warm_variant_farm_animals",
+            "has_structure_abandoned_camp"
         ],
         "temperature": 0.95,
         "whiteAshDensity": 0
@@ -129,7 +130,8 @@
             "forest",
             "monster",
             "overworld",
-            "bee_habitat"
+            "bee_habitat",
+            "has_structure_abandoned_camp"
         ],
         "temperature": 0.6,
         "whiteAshDensity": 0
@@ -214,7 +216,8 @@
             "mutated",
             "bee_habitat",
             "overworld_generation",
-            "has_structure_trail_ruins"
+            "has_structure_trail_ruins",
+            "has_structure_abandoned_camp"
         ],
         "temperature": 0.6,
         "whiteAshDensity": 0
@@ -240,7 +243,8 @@
             "monster",
             "overworld",
             "cherry_grove",
-            "bee_habitat"
+            "bee_habitat",
+            "has_structure_abandoned_camp"
         ],
         "temperature": 0.3,
         "whiteAshDensity": 0
@@ -326,7 +330,8 @@
             "overworld",
             "taiga",
             "has_structure_trail_ruins",
-            "spawns_cold_variant_farm_animals"
+            "spawns_cold_variant_farm_animals",
+            "has_structure_abandoned_camp"
         ],
         "temperature": -0.5,
         "whiteAshDensity": 0
@@ -417,6 +422,30 @@
         ],
         "temperature": 2,
         "whiteAshDensity": 0
+    },
+    "minecraft:dappled_forest": {
+        "depth": 0.1,
+        "downfall": 0.6,
+        "foliageSnow": 0,
+        "id": 65535,
+        "mapWaterColour": {
+            "a": 166,
+            "b": 255,
+            "g": 183,
+            "r": 96
+        },
+        "rain": true,
+        "scale": 0.2,
+        "tags": [
+            "animal",
+            "dappled_forest",
+            "monster",
+            "forest",
+            "overworld",
+            "spawns_cold_variant_farm_animals",
+            "has_structure_abandoned_camp"
+        ],
+        "temperature": 0.6
     },
     "minecraft:deep_cold_ocean": {
         "ashDensity": 0,
@@ -528,7 +557,8 @@
             "overworld",
             "spawns_warm_variant_farm_animals",
             "fast_fishing",
-            "high_seas"
+            "high_seas",
+            "temperate_ocean"
         ],
         "temperature": 0.5,
         "whiteAshDensity": 0
@@ -585,7 +615,8 @@
             "warm",
             "spawns_warm_variant_farm_animals",
             "fast_fishing",
-            "high_seas"
+            "high_seas",
+            "temperate_ocean"
         ],
         "temperature": 0.5,
         "whiteAshDensity": 0
@@ -800,7 +831,8 @@
             "monster",
             "mountain",
             "overworld",
-            "spawns_cold_variant_farm_animals"
+            "spawns_cold_variant_farm_animals",
+            "has_structure_abandoned_camp"
         ],
         "temperature": 0.2,
         "whiteAshDensity": 0
@@ -855,7 +887,8 @@
             "monster",
             "mutated",
             "overworld",
-            "bee_habitat"
+            "bee_habitat",
+            "has_structure_abandoned_camp"
         ],
         "temperature": 0.7,
         "whiteAshDensity": 0
@@ -881,7 +914,9 @@
             "forest",
             "monster",
             "overworld",
-            "bee_habitat"
+            "bee_habitat",
+            "has_structure_abandoned_camp",
+            "oak_forest"
         ],
         "temperature": 0.7,
         "whiteAshDensity": 0
@@ -1064,6 +1099,32 @@
         "temperature": 2,
         "whiteAshDensity": 0
     },
+    "minecraft:ice_caves": {
+        "depth": 0.1,
+        "downfall": 0,
+        "foliageSnow": 0,
+        "id": 65535,
+        "mapWaterColour": {
+            "a": 166,
+            "b": 255,
+            "g": 183,
+            "r": 96
+        },
+        "rain": false,
+        "scale": 0.2,
+        "tags": [
+            "caves",
+            "ice_caves",
+            "overworld",
+            "monster",
+            "no_dirt",
+            "no_granite",
+            "hosted_ores",
+            "intrusive_deposits",
+            "no_glow_lichen"
+        ],
+        "temperature": 0
+    },
     "minecraft:ice_mountains": {
         "ashDensity": 0,
         "blueSporeDensity": 0,
@@ -1233,7 +1294,8 @@
             "monster",
             "overworld",
             "spawns_jungle_mobs",
-            "spawns_warm_variant_farm_animals"
+            "spawns_warm_variant_farm_animals",
+            "has_structure_abandoned_camp"
         ],
         "temperature": 0.95,
         "whiteAshDensity": 0
@@ -1374,7 +1436,8 @@
             "overworld",
             "spawns_warm_variant_farm_animals",
             "fast_fishing",
-            "high_seas"
+            "high_seas",
+            "temperate_ocean"
         ],
         "temperature": 0.5,
         "whiteAshDensity": 0
@@ -1454,7 +1517,8 @@
             "monster",
             "overworld",
             "meadow",
-            "bee_habitat"
+            "bee_habitat",
+            "has_structure_abandoned_camp"
         ],
         "temperature": 0.3,
         "whiteAshDensity": 0
@@ -1484,7 +1548,8 @@
             "rare",
             "taiga",
             "has_structure_trail_ruins",
-            "spawns_cold_variant_farm_animals"
+            "spawns_cold_variant_farm_animals",
+            "has_structure_abandoned_camp"
         ],
         "temperature": 0.3,
         "whiteAshDensity": 0
@@ -1662,7 +1727,8 @@
             "stone",
             "spawns_mesa_mobs",
             "spawns_warm_variant_farm_animals",
-            "surface_mineshaft"
+            "surface_mineshaft",
+            "has_structure_abandoned_camp"
         ],
         "temperature": 2,
         "whiteAshDensity": 0
@@ -1791,7 +1857,8 @@
         "tags": [
             "monster",
             "overworld",
-            "pale_garden"
+            "pale_garden",
+            "has_structure_abandoned_camp"
         ],
         "temperature": 0.7,
         "whiteAshDensity": 0
@@ -1877,7 +1944,8 @@
             "overworld",
             "taiga",
             "has_structure_trail_ruins",
-            "spawns_cold_variant_farm_animals"
+            "spawns_cold_variant_farm_animals",
+            "has_structure_abandoned_camp"
         ],
         "temperature": 0.25,
         "whiteAshDensity": 0
@@ -1984,7 +2052,8 @@
             "overworld",
             "savanna",
             "spawns_savanna_mobs",
-            "spawns_warm_variant_farm_animals"
+            "spawns_warm_variant_farm_animals",
+            "has_structure_abandoned_camp"
         ],
         "temperature": 1.2,
         "whiteAshDensity": 0
@@ -2280,7 +2349,8 @@
             "swamp",
             "spawns_slimes_on_surface",
             "slime",
-            "swamp_water_huge_mushroom"
+            "swamp_water_huge_mushroom",
+            "has_structure_abandoned_camp"
         ],
         "temperature": 0.8,
         "whiteAshDensity": 0
@@ -2337,7 +2407,8 @@
             "overworld",
             "taiga",
             "has_structure_trail_ruins",
-            "spawns_cold_variant_farm_animals"
+            "spawns_cold_variant_farm_animals",
+            "has_structure_abandoned_camp"
         ],
         "temperature": 0.25,
         "whiteAshDensity": 0
@@ -2446,7 +2517,8 @@
             "spawns_warm_variant_farm_animals",
             "spawns_warm_variant_frogs",
             "fast_fishing",
-            "high_seas"
+            "high_seas",
+            "temperate_ocean"
         ],
         "temperature": 0.5,
         "whiteAshDensity": 0
